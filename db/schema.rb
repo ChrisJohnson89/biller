@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(version: 20140612230213) do
 
   create_table "time_entries", force: true do |t|
     t.float    "time"
-    t.integer  "customer_id_id"
+    t.integer  "customer_id"
     t.integer  "employee_id"
     t.datetime "created_at"
     t.datetime "updated_at"
